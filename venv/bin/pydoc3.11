@@ -1,0 +1,5 @@
+#!/Users/deveshdhyani/Documents/Projects/Nvidia_llm/venv/bin/python3.11
+
+import pydoc
+if __name__ == '__main__':
+    pydoc.cli()

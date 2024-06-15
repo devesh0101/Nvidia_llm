@@ -1,0 +1,13 @@
+prefix=/Users/deveshdhyani/Documents/Projects/Nvidia_llm/venv
+exec_prefix=/Users/deveshdhyani/Documents/Projects/Nvidia_llm/venv
+libdir=/Users/deveshdhyani/Documents/Projects/Nvidia_llm/venv/lib
+sharedlibdir=/Users/deveshdhyani/Documents/Projects/Nvidia_llm/venv/lib
+includedir=/Users/deveshdhyani/Documents/Projects/Nvidia_llm/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
